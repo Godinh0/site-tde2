@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./assets/fundo.png");
+  height: 100%;
+  width: 100vw;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+  
+}
+.w3-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.w3-modal{
+  padding-top: 0 !important;
+}
+.w3-jumbo {
+  background: transparent;  
+  font-size: 40px !important 
+}
+.logo{
+    justify-content: start;
+    display: flex;
+}
+.logo img{
+    width: 20%;
+}
